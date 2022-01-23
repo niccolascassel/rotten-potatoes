@@ -24,8 +24,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            niccolas1987/conversao-temperatura:latest
-            niccolas1987/conversao-temperatura:v${{github.run_number}}
+            niccolas1987/rotten-potatoes:latest
+            niccolas1987/rotten-potatoes:v${{github.run_number}}
   
   CD:
     needs: CI
